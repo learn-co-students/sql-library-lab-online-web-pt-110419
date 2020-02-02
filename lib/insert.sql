@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 INSERT INTO series (title, author_id, subgenre_id) VALUES("abc",1,1), ("def",2,2);
 
 INSERT INTO books (title, year, series_id)
