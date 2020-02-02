@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INSERT INTO series (title, author_id, subgenre_id) VALUES("abc",1,1), ("def",2,2);
 
 INSERT INTO books (title, year, series_id)
@@ -29,4 +30,18 @@ INSERT INTO authors (name)
 INSERT INTO character_books(character_id, book_id)
                         VALUES (1,1),(2,2),(3,3),(4,4), (1,1),(2,2),(3,3),(4,4), (1,1),(2,2),(3,3),(4,4), (1,1),(2,2),(3,3),(4,4);
                         
+
+=======
+INSERT INTO series(title, author_id, subgenre_id) VALUES("abc",1,1), ("def",2,2);
+
+                  
+
+                      
+INSERT INTO books(title, year, series_id)
+              VALUES ("split infinity", 1999, 1),
+                      ("blue adept", 1999, 1)
+                     ("out of phaze", 1999, 1)
+                     ("the notebook", 1999, 2)
+                     ("message in a bottle", 1999, 2)
+                     ("when harry met sally", 1999, 2);
 
