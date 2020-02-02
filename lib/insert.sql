@@ -19,10 +19,14 @@ INSERT INTO characters (name, motto, species, author_id)
                         ("a", "a", "love_muffin", 2);
                         
 INSERT INTO subgenres (name)
-              VALUES  ("mystery"),
-                      ("romance");
-                         
-INSERT INTO authors(name)
-              VAULES  ("piers anthony"),
-                      ("iain pear");
+                  VALUES  ("mystery"),
+                          ("romance");
+                      
+INSERT INTO authors (name)
+  VALUES ("piers anthony"),
+         ("iain pear");
+         
+INSERT INTO characters_books(character_id, book_id)
+                        VALUES (1,1),(2,2),(3,3),(4,4);
+                        
 
