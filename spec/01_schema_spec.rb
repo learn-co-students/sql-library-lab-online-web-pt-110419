@@ -75,8 +75,8 @@ describe 'creating schema' do
     end
 
     # it "creates a characters table with a series_id field" do
-    #   expect{@db.execute("SELECT series_id FROM characters;")}.to_not raise_exception
-    # end
+       #expect{@db.execute("SELECT series_id FROM characters;")}.to_not raise_exception
+     #end
 
     it "creates a characters table with a author_id field" do
       expect{@db.execute("SELECT author_id FROM characters;")}.to_not raise_exception
