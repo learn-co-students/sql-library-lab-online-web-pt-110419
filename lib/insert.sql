@@ -1,6 +1,7 @@
-INSERT INTO series(title, author_id, subgenre_id)
-            VALUES  ("movies", 1, 1),
-                    ("books", 2, 2);
+INSERT INTO series (title, author_id, subgenre_id)
+            VALUES('A', 1,1), 
+                  ('B', 1,1);
+                    
                   
 INSERT INTO subgenres(name)
               VALUES  ("mystery"),
